@@ -1,0 +1,38 @@
+@import "../../theme/variables.less";
+@import "../../theme/typography.less";
+
+#landing-page {
+  overflow: hidden;
+  #main-content {
+    padding-top: 90px;
+   
+  }
+
+  .section {
+    margin-top: 50px;
+    padding: 0px 60px;
+  }
+
+  .featured-services {
+    margin-top: 20px;
+  }
+
+  .feature-blog-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #main-content {
+      .section {
+        margin-top: 50px;
+        padding: 0px 5px;
+      }
+    
+      .feature-blog-image {
+        width: 0;
+      }
+    }
+  }
+}
